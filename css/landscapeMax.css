@@ -1,0 +1,81 @@
+@media(orientation:landscape) and (max-width:900px){
+.container1{
+				display:flex;
+				position:relative;
+				width: 100%;
+				height: 40px;
+				z-index:1000;
+				background: #5d5d5d;
+				overflow:visible;
+}
+.box-menu .material-icons{
+				position:relative;
+				top:0rem;				
+				left:-1rem;
+				margin:0;
+				padding:0rem;				
+}
+.container1 .box-menu{	
+				top:.1rem;
+				left:100%;
+				width: 35%;
+				height: 76%;				
+				overflow:auto;				
+				z-index:200;
+				background: #353535;
+}
+.container1 .box-menu.slide{
+				left:64%;						
+}
+.container1 .box-menu ul{
+				width:100% ;				
+				display:flex;
+				flex-direction:column;
+				justify-content:center;																		
+}
+.container1 .box-menu ul li{				
+				list-style:none;
+				height: 100%;
+				padding: 0;					
+}
+.container1 .box-menu ul li a{
+				font-family: 'Poppins', sans-serif;
+				font-weight:700;
+				display:flex;
+				align-items:center;
+				margin:1rem 3rem;	
+				padding:0 .8rem;
+				height: 100%;														
+}
+.container1 .box-menu ul li a:hover{
+				background: rgba(255,255,255,.2);
+}
+.container1 .box-tombol .tombol-menu::before,
+.container1 .box-tombol .tombol-menu::after{				
+				left:6rem;
+}
+.container-about .box-data .box-besar{
+				left:0;
+}
+.container-about .box-data .img img{				
+				left:60%;
+}
+.container-galeri .galeri-img,
+.container-galeri .galeri-img .container-box-img{
+				display:flex;
+				flex-direction:row;
+				flex-wrap:wrap;
+				justify-content:center;
+				margin:0 auto;
+}
+.container-galeri .galeri-img .box-img{
+				opacity:1;
+				margin:1rem .5rem;
+}
+footer{
+				height: 20px;
+}
+footer .box-footer{				
+				padding-left:30%;
+}
+}

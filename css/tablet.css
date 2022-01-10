@@ -1,0 +1,292 @@
+@media(min-width:768px){
+.container1{
+				top:0;
+				background-image:linear-gradient(
+				 to bottom,
+				 #252c4a,
+				 #4b5999			
+				);
+				height: 100px;	
+}
+.container1 .box-logo{
+				flex:1;
+				position:relative;
+}
+.container1 .box-logo img{
+				width: 100px;
+				height: 100px;
+}
+.container1 .box-logo h2{
+				font-size:2.3rem;
+}				
+.container1 .box-menu{
+				flex:2;				
+				left:40%;
+				width: 100vw;
+				height: 100px;				
+				top:0;															
+				overflow:visible;
+				background: none;												
+}
+.box-menu .material-icons{												
+				font-size:2rem;
+				top:2rem;						
+				padding:0;
+				margin-left:	-2.5rem;						
+}
+.container1 .box-menu ul{
+				width:35rem;													
+}
+.container1 .box-menu ul li{				
+				padding: 0;
+				padding-left:1rem;				
+}
+.container1 .box-menu ul li a{			
+				margin:2.5rem 2rem;
+				font-size:1.2rem;														
+}
+.container1 .box-tombol{
+				display:none;
+}
+.container-home .container2{
+				max-height: 50vh;
+				background-image:linear-gradient(
+				to top,
+				#252c4a,
+				#6679cc,
+				#4b5996);
+				position:relative;
+}
+.container-home .container2::before{
+				content:"";
+				position:absolute;
+				top:0;
+				left:0;
+				height: 100%;
+				width: 100vw;
+				background: rgba(0,0,0,.1);
+}
+.container2 .box-judul{						
+				flex:1;				
+				position:relative;
+				transform:translate(10%,40vw);
+}
+.container2 .box-judul h1{				
+				transform:translate(0,0);				
+				font-size:7rem;
+				text-shadow:0rem 0rem .5rem #2bd5ff;
+}
+.container2 .profil{
+				display:block;
+				flex:1;
+				width: 100%;
+				height: 100%;
+				margin:0;		 
+}
+.container2 .img{
+				display:none;
+}
+/**- container-about -**/
+.container-about{
+				background:linear-gradient(
+				 to top,				
+				 #4b5999,
+				 #252c4a				 			
+			  );			  
+			  height: 550px;
+			  transition:all .5s ease-in-out;
+}
+.container-about.cAbout{
+				left:0;
+				height:25rem;
+				opacity:1;
+}
+.container-about .box-about{
+				width: 90vw;
+				height: 80%;
+				background:linear-gradient(to right,#142c50,#224089) ;
+				border:2px solid #51b7f3;
+}
+.container-about .box-about::after{
+				background: #51b7f3;
+				box-shadow:0px 10px 1px #122249, -2px 0px 1px #122249;
+}
+.container-about h3{
+				font-size:2rem;				
+}
+.container-about p{
+				font-size:1.5rem;
+				line-height: 2rem;
+}
+.container-about .box-judul{
+				position:relative;
+				padding:1rem 0 0 2rem ;
+				top:-.7rem;
+				background: #51b7f3;
+}
+.container-about .box-judul h2{
+				text-transform:uppercase;
+				font-size:2rem;				
+}
+.container-about .box-data{
+				display:flex;
+				overflow-x:none;
+}
+.container-about .box-data .box-besar{				
+				padding:1.6rem 1.5rem;
+				height: 100%;
+				left:0;				
+}
+.container-about .box-data .box-besar .box-biodata{
+				padding:2rem 0;	
+				position:relative;	
+				top:10%;
+}
+.container-about .box-data .box-besar .box-biodata h3{				
+				top:-.6rem;
+}
+.container-about .box-data .box-besar .box-biodata .data-kiri{
+				flex:1;
+}
+.container-about .box-data .img img{
+				position:relative;
+				width: 320px;
+				height: 320px;
+				left:0;
+				opacity:1;
+				transform:translateY(0rem);
+				transition:all 1s ease;
+}
+.container-about .box-data .img img.geserGambar{
+				left:0;
+				width: 320px;
+				height: 320px;
+				opacity:1;
+}
+.container-about .box-data .box-besar .box-skill{					
+				position:relative;
+				top:1rem;
+}
+/**- container-galeri -**/
+.container-galeri{
+				height:500px;
+				width: 100%;
+				opacity:1;
+}
+.container-galeri .galeri-judul{
+				padding:.5rem 2rem;
+}
+.container-galeri .galeri-judul h2{
+				font-size:2rem;
+}
+.container-galeri .galeri-img{				
+				flex-direction:row;
+				justify-content:center;
+				overflow:visible;			
+				transition:all .5s ease;
+}
+.container-galeri .galeri-img .box-img{
+				margin:.5rem 0;
+				width: 300px;
+}
+.container-galeri .galeri-img .tengah{				
+				height: 410px;
+				margin:0.5rem;
+}
+.container-galeri .galeri-img .box-img .deskripsi{
+				padding-top:.5rem;
+}
+.container-galeri .galeri-img .tengah .deskripsi{
+				padding-top:3rem;				
+}
+.container-galeri .galeri-img .box-img p{
+				font-size:1.2rem;
+				letter-spacing:1px;
+}
+/**- container-contact -**/
+.container-contact{
+				background: #4b5996;
+}
+.container-contact .box-form{
+				max-width: 5rem;
+}
+.container-contact h2{
+				padding:1.5rem 0;
+				font-size:3rem;				
+				transform:translateY(5px);
+}
+.container-contact h3{
+				font-size:1.1rem;	
+}
+.container-contact h4{
+				font-size:1.1rem;	
+				padding:.3rem 0;		
+}
+.container-contact .box-contact{
+				width: 45rem;
+				height: 30rem;
+				backdrop-filter:blur(10px);
+}
+.container-contact .box-contact::before{				
+				width: 450px;
+				height: 400px;
+				top:-27%;
+				left:-37%;
+				transition:all 1.5s ease;				
+}	 
+.active.box-contact::before{
+				left:65%;
+				top:50%;
+}
+.container-contact .box-form{
+				padding-top:0rem;				
+				margin:0 auto;				
+}
+.box-tombol-form{
+				width: 250px;				
+}
+.box-tombol-form .overlay-tombol{				
+				width: 125px;
+				height: 29.7px;			
+}
+.input-field{
+				padding-top:20px;
+				min-width: 70%;
+				margin:.5rem auto;
+}
+#login #check{
+				left:15%;
+}
+#login #remember{
+				top:33%;
+				left:19%;
+}
+#login .box-logo{
+				margin-top:-1rem;
+}
+#login .box-logo p{
+				font-size:1rem;
+}
+#login .box-logo .box-icon img{
+				width: 75px;
+				height: 75px;
+}
+.tombol-reg,
+.tombol-log{
+				width: 70%;
+				margin:1rem auto;	
+}
+.back-top{
+				left:60%;
+				width: 100vw;
+				height: 7rem;
+				display:flex;
+}
+footer .box-footer{				
+				padding-left:30%;
+}
+footer .box-footer p,
+footer .box-footer p span{
+				font-size:1rem;
+}
+}
