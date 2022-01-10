@@ -1,6 +1,0 @@
-ini merupakan website portfolio saya.
-ngoding hanya menggunakan smartphone (hp).
-serta aplikasi pendukun yaitu:
-a.TrebEdit
-b.Termux
-c.Awebser
