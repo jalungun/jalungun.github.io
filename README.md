@@ -1,4 +1,4 @@
-Ini merupaka website portfolio saya.
+Ini merupakan website portfolio saya.
 Ngoding hanya menggunakan smartphone(hp).
 Aplikasi pendukung yaitu:
 a.TrebEdit
