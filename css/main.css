@@ -232,14 +232,6 @@ h2,a{
 				left:40%;
 				transition:all .3s ease;
 }
-.container2 .img img.motor{
-				width: 70px;
-				height: 70px;
-				top:70%;
-				left:40%;
-				transform:rotate(180deg);
-				transition:all .3s ease;
-}
 /**- container-about -**/
 .container-about{
 				background: #b0b0b0;				
